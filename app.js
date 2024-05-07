@@ -1,3 +1,5 @@
+// төлөвийн хувьсагч
+var IsOnGame = true;
 // тоглогчийн ээлжийг хадагалах хувьсагч. жич эхний тоглогчийг 0, гэе
 var activePlayer = 0;
 var isFirst = true;
@@ -23,6 +25,9 @@ imgDice.style = "display:none;";
 
 document.querySelector(".btn-roll").addEventListener("click", function()
 {
+    if(IsOnGame){
+        
+    }
     document.getElementsByClassName("btn-roll")[0].disabled = true;
     imgDice.style.display = "block";
     function sleep(ms) 
