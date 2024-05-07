@@ -120,7 +120,7 @@ document.querySelector(".btn-roll").addEventListener("click", function()
                 activePlayer = 0;
                 document.getElementById("p1p").classList.toggle("active");
                 document.getElementById("p0p").classList.add("active");
-                scores[1]=0;
+                
             }
         }
         
